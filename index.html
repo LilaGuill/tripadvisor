@@ -16,7 +16,6 @@
       <div class="container flex-align-space-between">
         <i class="icon-menu-bars visible-on-small-only"></i>
         <img src="/assets/img/header/logo.svg" alt="logo" />
-        <i class="icon-search visible-on-small-only"></i>
         <div class="flex-align-center">
           <div class="flex-vertical-align-center">
             <i class="icon-plus-c"></i>
@@ -39,6 +38,7 @@
             <i class="icon-search"></i> <span>Rechercher</span>
           </div>
         </div>
+        <i class="icon-search visible-on-small-only"></i>
       </div>
     </header>
     <!--Nav--------------------------------------------->
@@ -71,7 +71,7 @@
           <i class="icon-checkmark icon-green"></i>
         </i>
         <div class="circle">
-          <i class="icon-times icon-black"></i>
+          <i class="icon-times icon-white"></i>
         </div>
       </div>
     </nav>
@@ -132,9 +132,7 @@
             <li>
               <i class="icon-bubble-rating-bg"></i>
               <span
-                >Posez des questions et obtenez des réponses de la part de
-                voyageurs tels que vous</span
-              >
+                >Posez des questions et obtenez des réponses de la part de voyageurs tels que vous</span>
             </li>
           </ul>
           <button class="btn-secondary">Inscrivez-vous</button>
@@ -154,14 +152,8 @@
                 <img src="/assets/img/slide/paris-img3.jpg" alt="img3">
                 <img src="/assets/img/slide/paris-img4.jpg" alt="img4">
              </div>
-             
-
-    
-      
-
         </div>
       <div class="content-slider">
-
             <h2>Découvrez le meilleur de Paris </h2>
             <div class="flex-align-space-between">   
             <h4>Meilleurs restaurants à Paris</h4>
@@ -217,7 +209,41 @@
                </div>
                </div>
       </div>
+      <div class="post">
+        <div class="post-header">
+       
+          <img src="assets/img/avatar/avatar.jpg" alt="profil"></img>
+        
+          <div class="flex-vertical">
+          <div class="info">
+          <span>Découvrir ensemble</span>
+            <i class="icon-verified-checkmark-fill icon-green"></i>
+            <span>a publié une photo</span>
+          </div>
+          <div class="date">Août 2019
+          </div>
       </div>
+
+        
+        </div>
+        <img src="assets/img/post/paris.jpg"></img>
+        <div class="description">
+          <p>Un matin parisien la tête à l'envers… ♡</p>
+          <span>
+            22 votes utiles</span><span>
+            1 enregistrement dans les   favoris</span>
+        </div>
+        <div class="action">
+          <ul>
+            <li>
+              <i class="icon-thumbs-up-fill"></i>Utile</li>
+            <li> <i class="icon-heart-fill"></i>Enregistrer</li>
+            <li> <i class="icon-repost-fill"></i>Partager</li>
+          </ul>
+        </div>     
+      </div> 
+      </div>
+     
       <aside class="aside2 hide-on-small-only">
         <div>
           <h3 >Explorez Paris</h3>
@@ -262,15 +288,16 @@
             </a></li>
           </ul>
         </div>
-
       </aside>
 
     </main>
-
+    <div class="more-post">
+      <button class="btn-more">Afficher plus</button>
+    </div>
     <div id="display-modal" class="display-modal-none">
       <div class="modal-background">
         <div class="modal">
-          <i id="close-modal" class="icon-times icon-green"></i>
+          <i id="close-modal" onclick="closeModal()" class="icon-times icon-green"></i>
           <img src="assets/img/modal/logo-modal.svg">
             <button>
               <img src="/assets/img/modal/logo-modal-google.png">
@@ -294,6 +321,10 @@
         </div>
       </div>
     </div>
-   
+  <footer>
+  <img src="/assets/img/footer/logo-footer.svg" alt="logo-footer"/>
+  <span> © 2020 TripAdvisor LLC Tous droits réservés. </span>
+  <span> Ceci est une reproduction de la page Paris du site de Tripadvisor. </span>
+  </footer>
   </body>
 </html>
