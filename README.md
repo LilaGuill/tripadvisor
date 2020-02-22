@@ -1,11 +1,11 @@
 <h1 align="center">Tripadvisor frontend</h1>
 
 <p align="center">
-  <img width="500" src="https://github.com/LilaGuill/netflix-frontend/blob/master/public/screen.png" alt="capture-1">
+  <img width="500" src="https://github.com/LilaGuill/tripadvisor-frontend/blob/master/assets/img/screen.png" alt="capture-1">
 </p>
 
 <p align="center">
-  Demo:<a href="https://netflix-react-lg.netlify.com/" target="_blank"> https://netflix-react-lg.netlify.com/</a>
+  Demo:<a href="https://tripadvisor-paris.netlify.com/" target="_blank">https://tripadvisor-paris.netlify.com/</a>
 </p>
 <p align="center">
  This project was bootstrapped with <a href=https://github.com/facebook/create-react-app. target="_blank">Create React App</a>
@@ -13,10 +13,9 @@
 
 ## Overview
 
-**Single page application**
-
-- React
-- Slider
+- HTML5
+- CSS3
+- Javascript
 
 **UI**
 
@@ -28,20 +27,14 @@
 Clone this repository :
 
 ```
-git clone https://github.com/LilaGuill/netflix-frontend.git
+git clone https://github.com/LilaGuill/tripadvisor-frontend.git
 cd netflix-frontend
-```
-
-Install packages :
-
-```
-npm install
 ```
 
 When installation is complete, run the project with:
 
 ```
-npm start
+Vs code extension GoLive
 ```
 
 ## Deployment
