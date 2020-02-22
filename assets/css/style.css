@@ -783,6 +783,16 @@ footer > span {
   .post {
     width: 90%;
   }
+
+  .post-header .info {
+    font-size: 8px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .date {
+    font-size: 10px;
+  }
 }
 /* .slider::-webkit-scrollbar {
   display: none;
